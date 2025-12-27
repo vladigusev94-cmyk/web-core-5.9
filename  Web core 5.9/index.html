@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Web-core-5.9</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+ 
+
+<body>
+
+    <h1>Get into it today</h1>
+
+    <p>There is no charge or obligation upon registration.</p>
+    <img src="images/bg.jpg" alt="left-image">
+
+    <div class="buttons">
+
+        <button onclick="window.open('https://www.facebook.com', '_blank')">
+
+            Register with Facebook
+
+        </button>
+
+        <button onclick="window.open('https://www.linkedin.com', '_blank')">
+
+            Register with LinkedIn
+
+        </button>
+
+    </div>
+
+    <div class="divider-container">
+
+        <hr class="line">
+
+        <span class="or-text">OR</span>
+
+        <hr class="line">
+
+    </div>
+
+
+
+    <form class="registration-form">
+
+        <input type="email" id="email" placeholder="Email" required>
+
+        <input type="password" id="password" placeholder="Password" required>
+
+        <h2>What type of investor are you?</h2>
+
+        <p>Select the type of investor you are below.</p>
+
+
+
+        <div class="investor-types">
+
+            <input type="radio" id="individual" name="investor-type">
+
+            <label for="individual">Individual</label>
+
+
+
+            <input type="radio" id="business" name="investor-type">
+
+            <label for="business">Business</label>
+
+
+
+            <input type="radio" id="ira" name="investor-type">
+
+            <label for="ira">IRA</label>
+
+
+
+            <input type="radio" id="trust" name="investor-type">
+
+            <label for="trust">Trust</label>
+
+        </div>
+
+        <p>
+            <input type="checkbox" id="terms" required>
+            <label for="terms">
+                I agree to the terms and receiving notifications from iintoo
+            </label>
+        </p>
+        <button type="submit" class="submit-button">
+            Create Account
+        </button>
+    </form>
+</body>
+</html>
