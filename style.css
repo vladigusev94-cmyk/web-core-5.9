@@ -1,0 +1,426 @@
+main {
+    height: 950px;
+    padding: 70px 240px;
+    display: flex;
+    font: optional;
+   
+
+background-color: whitesmoke;
+}
+
+
+.left {
+    height: 950p;
+    
+    width: 50%;
+    display: inline-block;
+  
+    max-width: 950px;
+}
+
+
+.right {
+    height: 950px;
+    background-color: white;
+    width: 50%;
+    display: inline-block;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+}
+
+
+.social-media {
+  
+    margin-top: 75px;
+    margin-left: 70px;
+    font-family: barlow-medium;
+    
+    
+   
+   
+
+}
+
+
+
+
+
+h1 {
+    margin-top: 100px;
+    margin-left: 70px; 
+    font-family: barlow-bold;
+   
+}
+         
+p {
+    margin-left: 70px;
+    font-family: barlow;
+    font-size: 20px
+}
+ 
+
+
+
+.form-types {
+    margin-bottom: -75px;
+    margin-left: 70px;
+
+
+}
+
+h2 {
+    margin-top: 100px;
+    margin-left: 70px;
+    font-family: barlow-medium;
+}
+
+.radio {
+    margin-bottom: 100px;
+    margin-left: 70px;
+    font-family: barlow;
+
+}
+
+.Submit {
+    margin-top: 110px;
+    margin-left: 70px;
+    border-radius: 8px;
+   
+    
+   
+}
+
+.terms {
+    margin-top: px;
+    margin-left: 70px;
+    font-family: barlow;
+
+
+
+}
+
+button {
+    width: 250px;
+    height: 45px;
+    
+    
+    
+}
+  
+#Email {
+    width: 242px;
+    height: 45px;
+    margin-top: 15px;
+    margin-left: px;
+    font-family: barlow;
+    
+
+}
+
+#Phone {
+    width: 242px;
+    height: 45px;
+    margin-top: 15px;
+    margin-left:  px;
+    font-family: barlow;
+    
+}
+
+
+.paragraph {
+    margin-top: 55px;
+    
+    font-family: barlow;
+   
+
+}
+ 
+hr {
+    max-width: 200px;
+    margin-left: -90px;
+}
+
+.OR {
+    margin-left: 310px;
+    margin-bottom: 0px;
+    font-family: barlow-medium;
+}
+
+.custom-button {
+    display: inline-flex;
+    align-items: centre; 
+    gap: 10px;
+    padding: 11px 20px;
+    background-color: blue;
+    color: white;
+    text-decoration: none; 
+    font-family: sans-serif;
+    transition: background 0.3s;
+}
+
+.custom-button: hover; {
+    
+
+}
+
+.facebook-logo {
+    width: 15px;
+    height: 15px;
+    object-fit: contain;
+}
+
+
+custom-linkedin {
+    display: inline-flex;
+    align-items: centre;
+    gap: 10px;
+    padding: 10px 20px;
+    
+    
+    text-decoration: none; 
+    border-radius: 5px;
+    font-family: sans-serif;
+    transition: background 0.3s;
+}
+
+.custom-button: hover; {
+    background-color: #0056b3;
+}
+
+.linkedin-logo {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    object-fit: contain;
+}
+
+.left-logo {
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    padding: 15px;
+
+    
+  
+
+}
+
+.into-logo {
+
+    margin-left: -700px;
+    width: 215px;
+    height: 46px;
+    padding: 25px;
+}
+
+
+.custom-linkedin {
+    background-color: rgb(18, 109, 183);
+    color: white;
+}
+ .Create-account {
+    background-color: rgba(13, 162, 243, 0.98);
+    color: white;
+    margin-right: 70px;
+
+    
+ }
+
+
+ .left-line {
+    margin-top: 100p;
+   
+ }
+
+
+
+ .right-line {
+    margin-right: 100p;
+ }
+
+
+.tooltip1 {
+    position: relative;
+    display: inline-block;
+    font-family: barlow;
+
+}
+
+
+.tooltip1 .tooltiptext {
+    visibility: hidden; 
+    width: 185px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 125%;
+    left: 50%;
+    margin-left: -60px;
+    font-family: barlow;
+    font-size: 12px;
+
+
+}
+
+.tooltip1:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+
+.tooltip2 {
+    position: relative;
+    display: inline-block;
+    font-family: barlow;
+
+}
+
+
+.tooltip2 .tooltiptext2 {
+    visibility: hidden; 
+    width: 185px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 125%;
+    left: 50%;
+    margin-left: -60px;
+    font-family: barlow;
+    font-size: 12px;
+
+}
+
+.tooltip2:hover .tooltiptext2 {
+    visibility: visible;
+    font-family: barlow;
+}
+
+
+
+.tooltip3 {
+    position: relative;
+    display: inline-block;
+    font-family: barlow;
+
+}
+
+
+.tooltip3 .tooltiptext3 {
+    visibility: hidden; 
+    width: 185px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 125%;
+    left: 50%;
+    margin-left: -60px;
+    font-family: barlow;
+    font-size: 12px;
+
+}
+
+.tooltip3:hover .tooltiptext3 {
+    visibility: visible;
+    font-family: barlow;
+}
+
+
+
+.tooltip4 {
+    position: relative;
+    display: inline-block;
+    font-family: barlow;
+
+}
+
+
+.tooltip4 .tooltiptext4 {
+    visibility: hidden; 
+    width: 185px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 15;
+    top: 125%;
+    left: 50%;
+    margin-left: -60px;
+    font-family: barlow;
+    font-size: 12px;
+
+}
+
+.tooltip4:hover .tooltiptext4 {
+    visibility: visible;
+    font-family: barlow;
+
+
+}
+
+
+
+@font-face {
+    font-family: barlow;
+    src: url(fonts/barlow/Barlow-Regular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: barlow-medium;
+    src: url(fonts/barlow/Barlow-Medium.otf);
+    font-weight: 500;
+    font-style: medium;
+}
+
+@font-face {
+    font-family: barlow-bold;
+    src: url(fonts/barlow/Barlow-Bold.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#Individual {
+    margin-left: 
+}
+
+
+#Trust {
+    margin-left: 45px;
+
+}
+
+#IRA {
+    margin-left: 45px;
+}
+
+#Business {
+    margin-left: 45px;
+}
+
+
+
+
+
