@@ -1,16 +1,89 @@
+
+@font-face {
+    font-family: My font regular;
+    src: url(fonts/barlow/Barlow-Regular.otf);
+
+}
+
+@font-face {
+    font-family: My font medium;
+    src: url(fonts/barlow/Barlow-Medium.otf);
+}
+
+@font-face {
+    font-family: My font bold;
+    src: url(fonts/barlow/Barlow-Bold.otf);
+    font-weight: bold;
+}
+
+
+
+
 main {
+  
+    max-height: 1000px;
     display: flex;
+    background-color: whitesmoke;
+    padding: 50px 200px;
 }
 
 .left {
     width: 50%;
-    display: inline-block;
+  background-color: yellow;
+
+
 }
 
+
+
 .right {
-    width: 50%;
-    display: inline-block;
+width: 50%;
+background-color: white;
+padding: 100px 70px ;
+
 }
+
+h1 {
+  font-family: My font bold;   
+}
+
+
+.custom-button1 {
+    width: 250px;
+    height: 45px;
+    background-color: rgb(15, 55, 115);
+    color: white;
+
+}
+
+
+.custom-button2 {
+    width: 250px;
+    height: 45px;
+    background-color: rgb(26, 93, 151);
+    color: white;
+  
+}
+
+
+.logo-facebook {
+    width: 25px;
+    height: 15px;
+    color: white;
+}
+
+.logo-linkedin {
+    width: 25px;
+    height: 15px;
+    color: white;
+}
+
+
+.subtitle {
+font-family: My font regular;
+
+}
+
 
 
 
