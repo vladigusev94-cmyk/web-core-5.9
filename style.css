@@ -31,10 +31,15 @@ main {
     width: 50%;
   background-color: yellow;
 
-
 }
 
-
+.left-logo {
+    width: 180px;
+    height: 35px;
+    position: absolute;
+    margin-top: -965px;
+    padding-left: 25px;
+}
 
 .right {
 width: 50%;
