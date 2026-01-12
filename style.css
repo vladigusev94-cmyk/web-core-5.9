@@ -72,7 +72,7 @@ p {
     height: 45px;
     background-color: rgb(15, 55, 115);
     color: white;
-    margin-right: 20px;
+  
 
 }
 
@@ -137,6 +137,8 @@ font-family: My font regular;
 
 
 .social-media {
+    display: flex;
+    gap: 20px;
     text-align: center;
    
     
