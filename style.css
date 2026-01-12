@@ -29,8 +29,6 @@ main {
 
 .left {
     width: 50%;
-  background-color: yellow;
-
 }
 
 .left-logo {
@@ -133,7 +131,8 @@ font-family: My font regular;
 
 .registration {
     text-align: center;
-    
+    display: flex;
+    gap: 20px;
 }
 
 
