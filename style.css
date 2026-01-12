@@ -44,13 +44,29 @@ main {
 .right {
 width: 50%;
 background-color: white;
-padding: 100px 70px ;
+padding: 100px 110px;
 
 }
 
 h1 {
-  font-family: My font bold;   
+  font-family: My font medium;
 }
+
+
+h2 {
+  font-family: My font medium;  
+  padding-top: 25px;
+
+}
+
+p {
+  font-family: My font regular;
+  font-size: 14px;  
+  
+}
+
+
+
 
 
 .custom-button1 {
@@ -58,6 +74,7 @@ h1 {
     height: 45px;
     background-color: rgb(15, 55, 115);
     color: white;
+    margin-right: 20px;
 
 }
 
@@ -89,6 +106,113 @@ font-family: My font regular;
 
 }
 
+.divider {
+ display: flex;
+ text-align: center;
+ align-items: center;
+ margin: 30px 0;
+ color: black;
+ font-family: My font medium;
+}
 
+.divider::before,
+.divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.divider::before {
+    margin-right: 1em;
+}
+
+.divider::after {
+    margin-left: 1em;
+}
+
+.registration {
+    text-align: center;
+    
+}
+
+
+.social-media {
+    text-align: center;
+   
+    
+}
+
+
+
+
+
+#Email {
+    width: 245px;
+    height: 45px;
+    margin-right: 20px;
+    
+}
+
+
+#Phone {
+    width: 245px;
+    height: 45px;
+
+}
+
+.radio-group {
+    display: flex;
+    gap: 55px;
+    position: relative;
+    margin-top: 90px;
+    font-family: My font medium;
+  
+}
+
+
+.tooltip {
+
+display: none;
+top: 50px; 
+border-radius: 5px;
+background-color: whitesmoke;
+
+position: absolute;
+width: 270px;
+height: 70px;
+font-size: 16px;
+font-family: My font regular;
+pointer-events: none;
+z-index: 10;
+
+
+
+}
+
+
+.radio-group:hover .tooltip {
+    display: block;
+}
+
+
+
+
+
+.Terms {
+padding-top: 165px;
+font-family: My font regular;
+font-size: 14px;
+
+}
+
+
+#Create-account {
+    width: 250px;
+    height: 45px;
+    margin-top: 50px;
+    color: white;
+    background-color: #3698FB;
+}
 
 
