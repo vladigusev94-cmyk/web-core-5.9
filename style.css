@@ -1,66 +1,66 @@
-
-@font-face {
-    font-family: My font regular;
-    src: url(fonts/barlow/Barlow-Regular.otf);
-
-}
-
-@font-face {
-    font-family: My font medium;
-    src: url(fonts/barlow/Barlow-Medium.otf);
-}
-
-@font-face {
-    font-family: My font bold;
-    src: url(fonts/barlow/Barlow-Bold.otf);
-    font-weight: bold;
-}
-
-
-
-
 main {
-  
-    max-height: 1000px;
     display: flex;
-    background-color: whitesmoke;
-    padding: 50px 200px;
+    max-width: 1500px;
+    max-height: 1000px;
+    margin-left: 200px;
+    margin-top: 60px;
+ 
 }
 
-.left {
+
+.left-block {
     width: 50%;
+    overflow: hidden;
+    position: relative;
+
+
+    
+}
+
+
+.right-block {
+    width: 50%;
+    background-color: whitesmoke;
+  
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  
+    
 }
 
 .left-logo {
-    width: 180px;
-    height: 35px;
     position: absolute;
-    margin-top: -965px;
-    padding-left: 25px;
+    top: 30px;
+    left: 30px;
+    width: 200px;
+    height: auto;
 }
 
-.right {
-width: 50%;
-background-color: white;
-padding: 100px 110px;
 
-}
+
+
+
+
 
 h1 {
-  font-family: My font medium;
+    padding-top: 70px;
+    padding-left: 90px;
 }
 
 
-h2 {
-  font-family: My font medium;  
-  padding-top: 25px;
-
+.subtitle {
+    padding-left: 90px;
 }
 
-p {
-  font-family: My font regular;
-  font-size: 14px;  
-  
+.social-media {
+    display: flex;
+    padding-left: 90px;
+    gap: 40px;
+    padding-top: 40px;  
 }
 
 
@@ -68,41 +68,20 @@ p {
 
 
 .custom-button1 {
-    width: 250px;
+    width: 265px;
     height: 45px;
-    background-color: rgb(15, 55, 115);
-    color: white;
-  
-
+    background-color: #255A9B;  
+    color:white;     
 }
-
 
 .custom-button2 {
-    width: 250px;
+    width: 265px;
     height: 45px;
-    background-color: rgb(26, 93, 151);
+    background-color: #0076B6;
     color: white;
-  
-}
-
-
-.logo-facebook {
-    width: 25px;
-    height: 15px;
-    color: white;
-}
-
-.logo-linkedin {
-    width: 25px;
-    height: 15px;
-    color: white;
-}
-
-
-.subtitle {
-font-family: My font regular;
 
 }
+
 
 .divider {
  display: flex;
@@ -110,7 +89,7 @@ font-family: My font regular;
  align-items: center;
  margin: 20px 0;
  color: black;
- font-family: My font medium;
+
 }
 
 .divider::before,
@@ -129,45 +108,41 @@ font-family: My font regular;
     margin-left: 1em;
 }
 
+
 .registration {
-    text-align: center;
     display: flex;
-    gap: 20px;
-}
-
-
-.social-media {
-    display: flex;
-    gap: 20px;
-    text-align: center;
-   
+    padding-left: 90px;
+    gap: 40px;
+    
     
 }
 
 
 
-
-
-#Email {
-    width: 245px;
-    height: 45px;
-   
-   
-    
+#Email, #Phone {
+    width: 260px;
+    height: 40px;
+    margin-bottom: 15px;
 }
 
 
-#Phone {
-    width: 245px;
-    height: 45px;
-
+h2 {
+    padding-left: 90px;
+    margin-top: 40px;
 }
+
+.investor-type {
+    padding-left: 90px;
+    margin-top: 10px;
+}
+
 
 .radio-group {
+    padding-left: 90px;
     display: flex;
     gap: 55px;
     position: relative;
-    margin-top: 90px;
+    margin-top: 75px;
     font-family: My font medium;
   
 }
@@ -176,9 +151,9 @@ font-family: My font regular;
 .tooltip {
 
 display: none;
-top: 50px; 
+top: 40px; 
 border-radius: 5px;
-background-color: whitesmoke;
+background-color: white;
 
 position: absolute;
 width: 270px;
@@ -198,23 +173,20 @@ z-index: 10;
 }
 
 
-
-
-
 .Terms {
-padding-top: 165px;
-font-family: My font regular;
-font-size: 14px;
+    padding-left: 90px;
+    margin-top: 150px;
+    font-size:14px;
 
 }
 
-
 #Create-account {
-    width: 250px;
+    width: 265px;
     height: 45px;
-    margin-top: 50px;
-    color: white;
-    background-color: #3698FB;
+    background-color: #3698FB; 
+    color:white;  
+    margin-top: 80px;
+    margin-left: 90px;
 }
 
 
