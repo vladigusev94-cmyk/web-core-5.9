@@ -82,6 +82,20 @@ h1 {
 
 }
 
+.logo-facebook {
+    width: 18px;
+    height: 18px;
+    color: white;
+    margin-right: 15px;
+}
+
+.logo-linkedin {
+    width: 18px;
+    height: 18px;
+    color: white;
+    margin-right:15px;
+}
+
 
 .divider {
  display: flex;
@@ -112,7 +126,7 @@ h1 {
 .registration {
     display: flex;
     padding-left: 90px;
-    gap: 40px;
+    gap: 42px;
     
     
 }
@@ -120,7 +134,7 @@ h1 {
 
 
 #Email, #Phone {
-    width: 260px;
+    width: 255px;
     height: 40px;
     margin-bottom: 15px;
 }
